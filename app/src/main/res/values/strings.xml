@@ -1,3 +1,23 @@
 <resources>
-  <string name="app_name">BookingsAppUiTest</string>
+    <string name="app_name">BookingsAppUiTest</string>
+    <string name="title_rent_car">Rent a car</string>
+    <string name="title_bookings">Bookings</string>
+    <string name="title_refer_friend">Refer a friend</string>
+    <string name="title_account">Account</string>
+    <string name="location">Location</string>
+    <string name="current_location">Current Location</string>
+    <string name="date_amp_time"><![CDATA[Date & Time]]></string>
+    <string name="now">Now</string>
+    <string name="duration">Duration</string>
+    <string name="_1_hr">1 hr</string>
+    <string name="go">Go</string>
+    <string name="screen_one">Screen One</string>
+    <string name="screen_two">Screen Two</string>
+    <string name="screen_three">Screen Three</string>
+    <string name="search_results">Search results</string>
+    <string name="cars_found">cars found</string>
+    <string name="_300">300+</string>
+    <string name="filter">Filter</string>
+    <string name="map">Map</string>
+    <string name="mazda_3">Mazda 3</string>
 </resources>

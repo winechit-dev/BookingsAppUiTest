@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/primaryColor">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_rent_car"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_rent_car" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_rent_car"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/title_rent_car"
+                android:textSize="@dimen/text_size_medium"
+                android:textAppearance="?textAppearanceCaption"
+                android:textColor="@color/white"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_bookings" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_booking"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/title_bookings"
+                android:textSize="@dimen/text_size_medium"
+                android:textAppearance="?textAppearanceBody2"
+                android:textColor="@color/lightColor"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_refer_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_refer_friend" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_refer_friend"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/title_refer_friend"
+                android:textAppearance="?textAppearanceBody2"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/lightColor"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_account"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_account" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_account"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/title_account"
+                android:textAppearance="?textAppearanceBody2"
+                android:textColor="@color/lightColor"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
